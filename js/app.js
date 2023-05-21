@@ -3701,15 +3701,6 @@
     window.addEventListener("load", (function(e) {
         initSliders();
     }));
-    let addWindowScrollEvent = false;
-    setTimeout((() => {
-        if (addWindowScrollEvent) {
-            let windowScroll = new Event("windowScroll");
-            window.addEventListener("scroll", (function(e) {
-                document.dispatchEvent(windowScroll);
-            }));
-        }
-    }), 0);
     function DynamicAdapt(type) {
         this.type = type;
     }
