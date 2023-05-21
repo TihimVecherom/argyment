@@ -272,7 +272,7 @@ html {
   }
 }
 
-.swiper-first-slide__block-title i {
+.swiper-first-slide__block-title .red {
   color: #8e1919;
 }
 
@@ -3393,7 +3393,7 @@ html {
     min-height: 650px;
   }
 
-  .swiper-first-slide__block-title i {
+  .swiper-first-slide__block-title .red {
     display: none;
   }
 
