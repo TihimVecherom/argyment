@@ -2344,6 +2344,19 @@ html {
   }
 }
 
+.protection__list p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  color: #ECECEC;
+}
+
+.list-company {
+  max-width: 608px;
+}
+
 .list-item::marker {
   display: block;
 }
@@ -2807,11 +2820,29 @@ html {
   max-width: 657px;
 }
 
-.one-case__bar .one-case__item .text {
+.one-case__item h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #F1F8F6;
+}
+
+.one-case__item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  color: #ECECEC;
+}
+
+.one-case__bar .one-case__item p {
   max-width: 422px;
 }
 
-.one-case__item:nth-child(1) .text {
+.one-case__item:nth-child(1) p {
   max-width: 540px;
 }
 
@@ -5228,6 +5259,10 @@ body._active {
     left: 10px;
   }
 
+  .protection__list p {
+    font-size: 14px;
+  }
+
   .ol-list {
     font-size: 16px;
   }
@@ -5341,6 +5376,14 @@ body._active {
     border-bottom: 1px solid #ECECEC;
     padding-bottom: 30px;
     margin-bottom: 30px;
+  }
+
+  .one-case__item h3 {
+    font-size: 16px;
+  }
+
+  .one-case__item p {
+    font-size: 14px;
   }
 
   .one-case__bar {
