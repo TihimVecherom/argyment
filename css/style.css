@@ -186,6 +186,7 @@ html {
   position: relative;
   padding-top: 230px;
   padding-bottom: 130px;
+  min-height: 850px;
 }
 
 .block-bg img {
@@ -3656,6 +3657,10 @@ html {
   padding-bottom: 40px;
 }
 
+.cards-practices .practices-slide {
+  padding-bottom: 40px;
+}
+
 .cards-about .practices-slide {
   padding-bottom: 40px;
   background: -o-linear-gradient(339.63deg, #08362F 0%, #227064 100.85%) !important;
@@ -5962,6 +5967,7 @@ body._active {
 
   .protection__person-content {
     padding: 20px;
+    padding-bottom: 40px;
   }
 
   .protection__person-text {
@@ -6022,6 +6028,10 @@ body._active {
 
   .btn-form-fedback {
     margin-top: 10px;
+  }
+
+  .protection-person .block-bg img {
+    top: 60px;
   }
 }
 
